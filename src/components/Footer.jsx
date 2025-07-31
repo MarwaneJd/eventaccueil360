@@ -50,7 +50,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Adresse</h3>
             <div className="text-gray-300 space-y-1">
-              <p>📍 15 Résidence KAYS PLACE, Ala Adaouiya, Agdal, Rabat</p>
+              <p>📍 15 Résidence KAYS PLACE, Rabia Al Adaouia, Agdal, Rabat</p>
               <p>📞 +212 7 73 72 10 10</p>
               <p>📞 +212 5 37 68 09 89</p>
             </div>

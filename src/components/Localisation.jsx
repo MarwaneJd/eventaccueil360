@@ -13,14 +13,14 @@ const Localisation = () => {
         {/* Google Maps */}
         <div className="bg-gray-200 rounded-lg overflow-hidden shadow-lg">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.8697767589777!2d-6.838838!3d33.999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDU5JzU2LjQiTiA2wrA1MCcxOS44Ilc!5e0!3m2!1sen!2sma!4v1234567890"
+            src="https://maps.google.com/maps?q=34.000288,-6.847147&hl=fr&z=16&output=embed"
             width="100%"
             height="500"
             style={{ border: 0 }}
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Event Accueil 360 Location"
+            title="Event Accueil 360 - 15 Résidence KAYS PLACE, Rabia Al Adaouia, Agdal, Rabat"
             className="w-full"
           ></iframe>
         </div>

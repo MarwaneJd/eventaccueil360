@@ -30,6 +30,7 @@ Event Accueil 360 est spécialisée dans l'impression sur textiles avec des mat�
 ## 💰 Tarifs
 
 ### Produits
+
 - Bonnet/Visière: 130 dh
 - Bandeau/Visière: 115 dh
 - T-Shirt: 75 dh
@@ -42,6 +43,7 @@ Event Accueil 360 est spécialisée dans l'impression sur textiles avec des mat�
 - Cache Chaise: 30 dh
 
 ### Impressions
+
 - Petite Impression: 20 dh
 - Moyenne Impression: 40 dh
 - Grande Impression: 60 dh
@@ -88,7 +90,7 @@ Le site est entièrement responsive et optimisé pour :
 
 **Event Accueil 360**
 
-- 📍 15 Résidence KAYS PLACE, Ala Adaouiya, Agdal, Rabat
+- 📍 15 Résidence KAYS PLACE, Rabia Al Adaouia, Agdal, Rabat
 - 📞 +212 7 73 72 10 10
 - 📞 +212 5 37 68 09 89
 
