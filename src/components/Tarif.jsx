@@ -1,24 +1,4 @@
 const Tarif = () => {
-  const produits = [
-    { nom: "Bonnet / Visière", prix: "130 dh" },
-    { nom: "Bandeau / Visière", prix: "115 dh" },
-    { nom: "Foulard / Écharpe", prix: "60 dh" },
-    { nom: "Bracelet / Brassard", prix: "30 dh" },
-    { nom: "Sac", prix: "60 dh" },
-    { nom: "T-Shirt", prix: "75 dh" },
-    { nom: "Robe T-Shirt", prix: "75 dh" },
-    { nom: "Gilet", prix: "75 dh" },
-    { nom: "Cache Chaise", prix: "30 dh" },
-    { nom: "Cache Coussin", prix: "60 dh" }
-  ];
-
-  const impressions = [
-    { nom: "Petite Impression", prix: "20 dh" },
-    { nom: "Moyenne Impression", prix: "40 dh" },
-    { nom: "Grande Impression", prix: "60 dh" },
-    { nom: "Impression Personnalisée", prix: "90 dh" }
-  ];
-
   return (
     <section id="tarif" className="py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4">
@@ -34,50 +14,24 @@ const Tarif = () => {
           </p>
         </div>
 
-        {/* Pricing Grid */}
-        <div className="space-y-12">
-          {/* Produits Section */}
-          <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center">
-              Tarifs des Produits
-            </h3>
-            <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
-              {produits.map((produit, index) => (
-                <div
-                  key={index}
-                  className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-red-200 p-6"
-                >
-                  <h4 className="text-lg font-bold text-gray-800 mb-3">
-                    {produit.nom}
-                  </h4>
-                  <div className="text-2xl font-bold text-red-600">
-                    {produit.prix}
-                  </div>
-                </div>
-              ))}
-            </div>
+        {/* Pricing Images */}
+        <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+          {/* Tarif 1 */}
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <img 
+              src="/tarif1.jpeg" 
+              alt="Tarifs des Produits - Event Accueil 360" 
+              className="w-full h-auto object-contain"
+            />
           </div>
 
-          {/* Impressions Section */}
-          <div>
-            <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center">
-              Tarifs des Impressions
-            </h3>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {impressions.map((impression, index) => (
-                <div
-                  key={index}
-                  className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-red-200 p-6"
-                >
-                  <h4 className="text-lg font-bold text-gray-800 mb-3">
-                    {impression.nom}
-                  </h4>
-                  <div className="text-2xl font-bold text-red-600">
-                    {impression.prix}
-                  </div>
-                </div>
-              ))}
-            </div>
+          {/* Tarif 2 */}
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+            <img 
+              src="/tarif2.jpeg" 
+              alt="Tarifs des Impressions - Event Accueil 360" 
+              className="w-full h-auto object-contain"
+            />
           </div>
         </div>
 
