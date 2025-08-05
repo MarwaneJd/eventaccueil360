@@ -18,17 +18,19 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-lg">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-lg" role="navigation" aria-label="Navigation principale">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <a href="#accueil">
+            <a href="#accueil" aria-label="Event Accueil 360 - Retour à l'accueil">
               {/* Logo Image */}
               <img 
                 src="/logo.png" 
-                alt="Event Accueil 360 Logo" 
+                alt="Event Accueil 360 - Logo de l'entreprise d'impression textile à Rabat" 
                 className="h-12 md:h-16 w-auto"
+                width="60"
+                height="60"
               />
             </a>
           </div>

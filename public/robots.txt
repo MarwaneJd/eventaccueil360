@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://eventaccueil360.com/sitemap.xml
+
+# Disallow unnecessary files
+Disallow: /src/
+Disallow: /*.json$
+Disallow: /*.js$
+Disallow: /*.css$
+
+# Allow important assets
+Allow: /logo.png
+Allow: /hero-tshirt.png
+Allow: /favicon.svg
+Allow: /tarif1.jpeg
+Allow: /tarif2.jpeg
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1

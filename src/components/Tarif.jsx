@@ -18,20 +18,24 @@ const Tarif = () => {
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {/* Tarif 1 */}
           <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-            <img 
-              src="/tarif1.jpeg" 
-              alt="Tarifs des Produits - Event Accueil 360" 
-              className="w-full h-auto object-contain"
-            />
+            <div className="min-h-[600px] flex items-center justify-center p-4">
+              <img 
+                src="/tarif1.jpeg" 
+                alt="Tarifs des Produits - Event Accueil 360" 
+                className="w-full h-full max-h-[580px] object-contain hover:scale-105 transition-transform duration-300"
+              />
+            </div>
           </div>
 
           {/* Tarif 2 */}
           <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-            <img 
-              src="/tarif2.jpeg" 
-              alt="Tarifs des Impressions - Event Accueil 360" 
-              className="w-full h-auto object-contain"
-            />
+            <div className="min-h-[600px] flex items-center justify-center p-4">
+              <img 
+                src="/tarif22.jpeg" 
+                alt="Tarifs des Impressions - Event Accueil 360" 
+                className="w-full h-full max-h-[580px] object-contain hover:scale-105 transition-transform duration-300"
+              />
+            </div>
           </div>
         </div>
 

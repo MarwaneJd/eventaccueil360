@@ -5,24 +5,28 @@ const Produits = () => {
       name: "T-shirts",
       description: "Personnalisation complète avant/arrière",
       image: "/hero-tshirt.png",
+      alt: "T-shirt personnalisé Event Accueil 360 - Impression haute qualité 95% coton 5% Lycra"
     },
     {
       id: 2,
       name: "Robes",
       description: "Idéal pour les groupes et événements",
       image: "/robe gris.jpg",
+      alt: "Robe personnalisée grise - Impression textile pour événements"
     },
     {
       id: 3,
       name: "Casquettes",
       description: "Personnalisation sur le devant ou les côtés",
       image: "/casquettes.jpg",
+      alt: "Casquettes personnalisées - Broderie et impression textile Rabat"
     },
     {
       id: 4,
       name: "Sacs",
       description: "Publicité mobile pour votre entreprise",
       image: "/sac_produit.jpg",
+      alt: "Sacs personnalisés publicitaires - Impression textile entreprise"
     }
   ];
 
@@ -48,8 +52,11 @@ const Produits = () => {
               <div className="h-48 bg-gray-200 overflow-hidden">
                 <img 
                   src={produit.image} 
-                  alt={produit.name}
+                  alt={produit.alt}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
+                  width="400"
+                  height="300"
                   onError={(e) => {
                     e.target.src = `data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300"><rect width="400" height="300" fill="%23f3f4f6"/><text x="200" y="150" text-anchor="middle" fill="%236b7280" font-family="sans-serif" font-size="16">${produit.name}</text></svg>`;
                   }}
